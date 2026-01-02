@@ -1,0 +1,16 @@
+package class_24_12_25;
+
+public class Program_Print_FirstandLast_Element {
+
+	public static void main(String[] args) {
+
+		int arr[] = {1, -2, 3, 4, -5, 6, 7, 8, -9, 10};
+		
+
+		System.out.println("First Element -->  ");
+		System.out.println(arr[0]);
+		System.out.println("First Element -->  ");
+		System.out.println(arr[arr.length-1]);
+	}
+
+}
